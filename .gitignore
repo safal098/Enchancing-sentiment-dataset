@@ -1,0 +1,8 @@
+hf_cache/
+training_checkpoints/
+models/*/model/
+*.safetensors
+pytorch_model*.bin
+*.token
+.env
+*.env

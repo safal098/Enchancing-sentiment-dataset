@@ -1,0 +1,148 @@
+{
+  "test_n": 1069,
+  "class_distributions": {
+    "train": {
+      "1": 2911,
+      "2": 2870,
+      "0": 2768
+    },
+    "val": {
+      "1": 364,
+      "2": 360,
+      "0": 345
+    },
+    "test": {
+      "1": 365,
+      "2": 359,
+      "0": 345
+    }
+  },
+  "accuracy": 0.7586529466791394,
+  "balanced_accuracy": 0.7604667705958268,
+  "macro_f1": 0.7596338824415064,
+  "weighted_f1": 0.7582006748139527,
+  "mcc": 0.6394573384143248,
+  "macro_roc_auc": 0.9070615256565134,
+  "mean_class_ece": 0.06073542840785797,
+  "truncation_rate": 0.0,
+  "per_class_f1": {
+    "Positive": 0.8361111111111111,
+    "Neutral": 0.6827309236947792,
+    "Negative": 0.7600596125186289
+  },
+  "roc_auc": {
+    "Positive": 0.9540475618544318,
+    "Neutral": 0.8523894769613948,
+    "Negative": 0.9147475381537135
+  },
+  "pr_auc": {
+    "Positive": 0.912042592493664,
+    "Neutral": 0.7458357875002548,
+    "Negative": 0.8510013108194618
+  },
+  "train_f1": 0.8176932792396459,
+  "val_f1": 0.7833069844099256,
+  "test_f1": 0.7596338824415064,
+  "train_val_gap": 0.03438629482972022,
+  "val_test_gap": 0.023673101968419208,
+  "gap_status": "\u2705 Healthy generalization",
+  "best_epoch": null,
+  "best_val_metric": 0.7833069844099256,
+  "best_checkpoint": "D:\\Nepali sentiment\\training_checkpoints\\xlmr23\\checkpoint-1340",
+  "global_step": 1340,
+  "best_hparams": {
+    "learning_rate": 1e-05,
+    "weight_decay": 0.15,
+    "warmup_ratio": 0.1,
+    "per_device_train_batch_size": 32
+  },
+  "bootstrap_ci": {
+    "accuracy": [
+      0.7590346117867166,
+      0.7324368568755847,
+      0.7839101964452759
+    ],
+    "macro_f1": [
+      0.7596662475607675,
+      0.7327000549383222,
+      0.7852960761207465
+    ],
+    "weighted_f1": [
+      0.7585875406891075,
+      0.7311440429183549,
+      0.7838584940066344
+    ],
+    "mcc": [
+      0.6399703643348728,
+      0.6000397789112921,
+      0.6782595217112505
+    ],
+    "balanced_accuracy": [
+      0.7607069378241332,
+      0.7354743884131173,
+      0.7858398172436912
+    ],
+    "per_class_f1": {
+      "Positive": [
+        0.8365232256267764,
+        0.8049792531120332,
+        0.8635200429491767
+      ],
+      "Neutral": [
+        0.6823125053499361,
+        0.6421710423299755,
+        0.7197994858611825
+      ],
+      "Negative": [
+        0.76016301170559,
+        0.725018503002374,
+        0.7959632441667115
+      ]
+    }
+  },
+  "ece_scores": {
+    "Positive": 0.04475196783053641,
+    "Neutral": 0.07320784991371843,
+    "Negative": 0.06424646747931907
+  },
+  "data_validation": {
+    "missing": {
+      "train": 0,
+      "val": 0,
+      "test": 0
+    },
+    "duplicates": {
+      "train": 0,
+      "val": 0,
+      "test": 0
+    },
+    "duplicate_label_conflicts": {
+      "train": 0,
+      "val": 0,
+      "test": 0
+    },
+    "label_conflicts": {
+      "train": 0,
+      "val": 0,
+      "test": 0
+    },
+    "leakage": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    }
+  },
+  "environment": {
+    "python": "3.11.1",
+    "torch": "2.6.0+cu124",
+    "transformers": "5.7.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_gb": 8.59,
+    "cuda_version": "12.4",
+    "precision_mode": "bf16"
+  }
+}

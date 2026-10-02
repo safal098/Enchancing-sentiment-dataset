@@ -1,0 +1,31 @@
+{
+  "key": "mbert23",
+  "label": "mBERT",
+  "checkpoint": "bert-base-multilingual-cased",
+  "learning_rate": 1e-05,
+  "weight_decay": 0.15,
+  "warmup_ratio": 0.1,
+  "batch_size": 32,
+  "grad_accum": 1,
+  "use_llrd": false,
+  "layer_decay": 0,
+  "use_custom_model": false,
+  "use_optuna": false,
+  "search_epochs": 5,
+  "batch_size_candidates": [
+    16,
+    32
+  ],
+  "weight_decay_range": [
+    0.01,
+    0.2
+  ],
+  "save_total_limit": 1,
+  "gradient_checkpointing": false,
+  "train_diagnostic_size": 1000,
+  "num_workers": 0,
+  "debug_mode": true,
+  "save_dir": "D:\\Nepali sentiment\\models\\mbert_mbert23",
+  "output_dir": "D:\\Nepali sentiment\\training_checkpoints\\mbert23",
+  "tok_dir": "D:\\Nepali sentiment\\tokenizers\\mbert_mbert23"
+}
