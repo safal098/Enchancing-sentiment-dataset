@@ -21,9 +21,10 @@ The target labels are `Positive`, `Neutral`, and `Negative`. The notebook maps t
 |-- README.md
 |-- Nepali_sentiment_training_MultiModel (1).ipynb  # Main notebook workflow
 |-- Nepali_sentiment_training_MultiModel (1).py     # Exported notebook script
-|-- train_devanagiri.xlsx
-|-- val_devanagiri.xlsx
-|-- test_devanagiri.xlsx
+|-- Devanagari Dataset/
+|   |-- train_devanagari.xlsx
+|   |-- val_devanagari.xlsx
+|   |-- test_devanagari.xlsx
 |-- tokenizers/                                     # Saved tokenizer assets
 `-- models/                                         # Reports, metrics, and plots
 	|-- mbert_mbert23/
